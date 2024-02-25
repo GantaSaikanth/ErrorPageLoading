@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.list-items {
+  list-style-type: none;
+  border: 2px solid #b5b7c4;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headings {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 20px;
+}
+.star-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.star-image {
+  height: 30px;
+  width: 30px;
+}
+.below-para {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  font-size: 18px;
+}
